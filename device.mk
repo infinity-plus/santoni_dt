@@ -71,11 +71,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
-
-# Offline Charger
-PRODUCT_PACKAGES += \
-    charger_res_images
-
 # Audio
 PRODUCT_PACKAGES += \
     audiod \
@@ -159,6 +154,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
+
+# Charger
+include $(LOCAL_PATH)/rootdir/charger/charger.mk
 
 # Display
 PRODUCT_PACKAGES += \
