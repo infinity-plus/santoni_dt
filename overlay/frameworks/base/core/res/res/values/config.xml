@@ -417,7 +417,7 @@
  
     <!-- Does the notification LED support multiple colors?
          Used to decide if the user can change the colors -->
-    <bool name="config_multiColorNotificationLed">true</bool>
+   <!-- <bool name="config_multiColorNotificationLed">true</bool> -->
  
     <!-- Default value for proximity check on screen wake
      NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
