@@ -186,12 +186,6 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service
 
-PRODUCT_PACKAGES += \
-    vendor.display.color@1.0-service \
-    vendor.display.color@1.0-impl \
-    vendor.display.config@1.1 \
-    vendor.display.config@1.1_vendor
-
 PRODUCT_PROPERTY_OVERRIDES += debug.hwui.use_buffer_age=false
 
 # DRM
